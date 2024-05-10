@@ -28,5 +28,7 @@ Usage pattern explanation:
 - model: Specify the (openai) model, you want to use. For an overview of the models, [see here](https://platform.openai.com/docs/models/overview).
 - num indicators [optional]: To get a feeling for the tool, you can also specify that you only want a subset of the indicators to be created. Put any positive number here.
 
+If you follow these steps, there will be an Excel file in the folder "Excel_Output" that carries the same name as your report. You can see that the one report in "Test_Data" was already analyzed with different specifications.
+
 ## Read and Cite the Paper
-tbd
+to be published soon
