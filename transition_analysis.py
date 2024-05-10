@@ -329,6 +329,6 @@ async def main():
     option = f"_topk{TOP_K}_params{less}"
     path_excel = outputExcel(answers, questions, prompts, REPORT, MASTERFILE, MODEL, option, excels_path)
 
-
-asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+# For usage on windows:
+#asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 asyncio.run(main())
