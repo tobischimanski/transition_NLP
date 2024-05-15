@@ -34,6 +34,9 @@ Usage pattern explanation:
 
 If you follow these steps, there will be an Excel file in the folder "Excel_Output" that carries the same name as your report. You can see that the one report in "Test_Data" was already analyzed with different specifications.
 
+## License
+This project is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License - see the [LICENSE](LICENSE) file for details.
+
 ## Read and Cite the Paper
 
 Find the [working paper on SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4826207).
