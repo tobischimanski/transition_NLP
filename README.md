@@ -4,6 +4,10 @@ This repository contains code and data for the project "Combining AI and Domain 
 
 ## Simple Usage
 
+> [!IMPORTANT]
+> If you use our code, please make sure to reference by citing the paper (Colesanti Senni et. al., 2024). If you want to use the code for commercial purposes, please get in touch with Markus Leippold (markus.leippold@df.uzh.ch).
+
+
 In order to use this, first clone the repository.
 ```python
 !git clone https://github.com/tobischimanski/transition_NLP.git
@@ -31,4 +35,13 @@ Usage pattern explanation:
 If you follow these steps, there will be an Excel file in the folder "Excel_Output" that carries the same name as your report. You can see that the one report in "Test_Data" was already analyzed with different specifications.
 
 ## Read and Cite the Paper
-to be published soon
+
+Find the [working paper on SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4826207).
+
+```
+@article{colesantisenni2024transitionNLP,
+  title={Combining AI and Domain Expertise to Assess Corporate Climate Transition Disclosures},
+  author={Colesanti Senni, Chiara and Schimanski, Tobias and Bingler, Julia and Ni, Jingwei and Leippold, Markus},
+  year={2024}
+}
+```
