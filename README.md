@@ -17,7 +17,7 @@ In order to use this, first clone the repository.
 ```
 As a second step, we install the requirements.
 ```python
-!pip install requirements.txt
+!pip install -r requirements.txt
 ```
 
 Now, we are ready to go. Simply follow the usage pattern and you can analyze your report.
