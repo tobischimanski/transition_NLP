@@ -22,7 +22,7 @@ As a second step, we install the requirements.
 
 Now, we are ready to go. Simply follow the usage pattern and you can analyze your report.
 ```python
-# Usage pattern: python api_key report model [num indicators]
+# Usage pattern: python transition_analysis.py api_key report model [num indicators]
 # Example
 !python transition_analysis.py sk-... ./Test_Data/CSR_IP_2022.pdf gpt-3.5-turbo-1106 4
 ```
