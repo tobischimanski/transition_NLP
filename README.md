@@ -24,7 +24,7 @@ Now, we are ready to go. Simply follow the usage pattern and you can analyze you
 ```python
 # Usage pattern: python api_key report model [num indicators]
 # Example
-!python sk-... ./Test_Data/CSR_IP_2022.pdf gpt-3.5-turbo-1106 4
+!python transition_analysis.py sk-... ./Test_Data/CSR_IP_2022.pdf gpt-3.5-turbo-1106 4
 ```
 Usage pattern explanation:
 - api_key: Create and use your own OPENAI API KEY. You can follow [this tutorial](https://www.merge.dev/blog/chatgpt-api-key).
