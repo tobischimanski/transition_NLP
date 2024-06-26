@@ -324,7 +324,19 @@ async def main():
     print(response_text)
 
     prompts, questions = createPrompts(retriever, PROMPT_TEMPLATE_QA, BASIC_INFO, ANSWER_LENGTH, MASTERFILE)
-    answers = await createAnswersAsync(prompts, MODEL)
+
+    # MAKE SURE TO NOT HIT RATE LIMITS
+    answers = []
+    step_size = 20
+    for i in np.arange(0, len(prompts), step_size):
+        p_loc = prompts[i:i+step_size]
+        a_loc = await createAnswersAsync(p_loc, MODEL)
+        answers.extend(a_loc)
+        num = i+20
+        if num > len(prompts):
+        num = len(prompts)
+        print(f"{num} Answers Given")
+    
     excels_path = "Excel_Output"
     option = f"_topk{TOP_K}_params{less}"
     path_excel = outputExcel(answers, questions, prompts, REPORT, MASTERFILE, MODEL, option, excels_path)
