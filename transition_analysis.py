@@ -334,7 +334,7 @@ async def main():
         answers.extend(a_loc)
         num = i+20
         if num > len(prompts):
-        num = len(prompts)
+            num = len(prompts)
         print(f"{num} Answers Given")
     
     excels_path = "Excel_Output"
