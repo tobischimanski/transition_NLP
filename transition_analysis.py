@@ -224,8 +224,6 @@ async def answer_async(prompts, MODEL):
 async def createAnswersAsync(prompts, MODEL):
     # async answering
     answers = await answer_async(prompts, MODEL)
-
-    print("Answers Given")
     # return
     return answers
 
