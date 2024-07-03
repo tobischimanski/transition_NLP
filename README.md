@@ -7,6 +7,7 @@ This repository contains code and data for the project "Combining AI and Domain 
 > [!IMPORTANT]
 > If you use our code, please make sure to reference by citing the paper (Colesanti Senni et. al., 2024). If you want to use the code for commercial purposes, please get in touch with Markus Leippold (markus.leippold@df.uzh.ch).
 
+For a detailed walk-through, follow [this tutorial](https://medium.com/@schimanski.tobi/ai-for-sustainability-1-a-tool-for-analyzing-company-transition-plans-7d75853f933b?source=friends_link&sk=d7c5aaf0af36d4618d26fdc1c34abf01).
 
 In order to use this, first clone the repository.
 ```python
