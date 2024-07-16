@@ -325,7 +325,8 @@ async def main():
 
     # MAKE SURE TO NOT HIT RATE LIMITS
     answers = []
-    step_size = 10
+    step_size = 5
+    print(f"In order to avoid Rate Limit Errors, we answer {step_size} questions at a time, not everything in parallel. This increases the execution time significantly but decreases the error rate. Another potential way to overcome this is to upgrade your OpenAI API key. Follow the tutorials on Medium to learn more.")
     for i in np.arange(0, len(prompts), step_size):
         p_loc = prompts[i:i+step_size]
         a_loc = await createAnswersAsync(p_loc, MODEL)
