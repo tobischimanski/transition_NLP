@@ -330,7 +330,7 @@ async def main():
         p_loc = prompts[i:i+step_size]
         a_loc = await createAnswersAsync(p_loc, MODEL)
         answers.extend(a_loc)
-        num = i+20
+        num = i+step_size
         if num > len(prompts):
             num = len(prompts)
         print(f"{num} Answers Given")
