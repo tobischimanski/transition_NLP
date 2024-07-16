@@ -325,7 +325,7 @@ async def main():
 
     # MAKE SURE TO NOT HIT RATE LIMITS
     answers = []
-    step_size = 20
+    step_size = 10
     for i in np.arange(0, len(prompts), step_size):
         p_loc = prompts[i:i+step_size]
         a_loc = await createAnswersAsync(p_loc, MODEL)
