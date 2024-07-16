@@ -334,6 +334,8 @@ async def main():
         if num > len(prompts):
             num = len(prompts)
         print(f"{num} Answers Given")
+        # wait a bit to not hit rate limit?
+        sleep(30)
     
     excels_path = "Excel_Output"
     option = f"_topk{TOP_K}_params{less}"
