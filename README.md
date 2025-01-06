@@ -1,6 +1,6 @@
-# Combining AI and Domain Expertise to Assess Corporate Climate Transition Disclosures 
+# Using AI to assess corporate climate transition disclosures
 
-This repository contains code and data for the project "Combining AI and Domain Expertise to Assess Corporate Climate Transition Disclosures". This is the implementation of the Retrieval Augmented Generation (RAG) system for the project.
+This repository contains code and data for the project "Using AI to assess corporate climate transition disclosures". This is the implementation of the Retrieval Augmented Generation (RAG) system for the project.
 
 ## Simple Usage
 
@@ -40,12 +40,14 @@ This project is licensed under the Creative Commons Attribution-NonCommercial-Sh
 
 ## Read and Cite the Paper
 
-Find the [working paper on SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4826207).
+Find the [published paper here](https://iopscience.iop.org/article/10.1088/2515-7620/ad9e88/meta).
 
 ```
-@article{colesantisenni2024transitionNLP,
-  title={Combining AI and Domain Expertise to Assess Corporate Climate Transition Disclosures},
-  author={Colesanti Senni, Chiara and Schimanski, Tobias and Bingler, Julia and Ni, Jingwei and Leippold, Markus},
-  year={2024}
+@article{10.1088/2515-7620/ad9e88,
+	author={Colesanti Senni, Chiara and Schimanski, Tobias and Bingler, Julia and Ni, Jingwei and Leippold, Markus},
+	title={Using AI to assess corporate climate transition disclosures},
+	journal={Environmental Research Communications},
+	url={http://iopscience.iop.org/article/10.1088/2515-7620/ad9e88},
+	year={2024}
 }
 ```
